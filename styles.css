@@ -3,15 +3,20 @@ body {
     background-color: #369c51;
 }
 
-.navigation {
+.navigation { /*header*/
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     display: block;
+}
+.navbar{ /*nav tag*/
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 .logo{
     background-color: #41d969;
+    color: white;
     border-radius: 8px;
     padding-left: 10px;
     padding-right: 10px;
@@ -22,21 +27,23 @@ body {
     padding-bottom: 10px;
     text-align: center;
 }
-.navbar{
-    display: flex;
-    
-}
+
 .navbar-buttons{
     display: flex;
     flex-wrap: nowrap;
     list-style: none;
     flex-direction: row;
-    margin-left: 1rem;
+    padding-left: auto;
+    margin-left: auto;
 }
 .nav-link{
     padding-left: 5px;
     padding-right: 5px;
     
+}
+.nav-link-text:link, .nav-link-text:visited{
+    color: white;
+    text-decoration: none;
 }
 .nav-link-text{
     padding: 20px;
@@ -44,4 +51,11 @@ body {
     background-color: #41d969;
     border-radius: 8px;
     vertical-align: sub;
+}
+.warning{
+    margin: 16px;
+}
+.about{
+    padding: 40px;
+    background-color: springgreen;
 }
