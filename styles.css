@@ -8,6 +8,7 @@ body {
     padding-right: 15px;
     margin: auto;
     display: block;
+    padding-bottom: 20px;
 }
 .navbar{ /*nav tag*/
     display: flex;
@@ -18,14 +19,11 @@ body {
     background-color: #41d969;
     color: white;
     border-radius: 8px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 8px;
 }
 .logo-text{
     margin: 0px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
+
 }
 
 .navbar-buttons{
@@ -33,8 +31,7 @@ body {
     flex-wrap: nowrap;
     list-style: none;
     flex-direction: row;
-    padding-left: auto;
-    margin-left: auto;
+
 }
 .nav-link{
     padding-left: 5px;
@@ -46,16 +43,27 @@ body {
     text-decoration: none;
 }
 .nav-link-text{
-    padding: 20px;
+    padding: 8px;
     text-align: center;
     background-color: #41d969;
     border-radius: 8px;
     vertical-align: sub;
 }
-.warning{
+#warning{
+    background-color: teal;
+    margin: 20px;
+}
+.warning-text{
     margin: 16px;
+    color: white;
 }
 .about{
+    display: block;
     padding: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
     background-color: springgreen;
+}
+section{
+    padding: 40px;
 }
